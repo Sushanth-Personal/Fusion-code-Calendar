@@ -382,7 +382,7 @@ nav button:hover {
   align-items: center;
   width: 100%;
   padding: 10px;
-  background-color: rgb(243, 243, 243);
+  background-color: white;
   border-radius: 5px;
   margin-bottom: 10px;
 }
@@ -395,6 +395,7 @@ nav button:hover {
   cursor: pointer;
   font-weight: bold;
   color: black;
+  justify-self: flex-end;
 }
 
 .mNavigation button:hover {

@@ -203,9 +203,11 @@ const Calendar = () => {
 {view === "monthly" && (
   <div className={styles.mMonthlyView}>
     <div className={styles.mNavigation}>
-      <button onClick={() => setCurrentMonth((prev) => prev - 1)}>❮</button>
       <h2>February 2025</h2>
-      <button onClick={() => setCurrentMonth((prev) => prev + 1)}>❯</button>
+      <div>
+          <button onClick={() => setCurrentMonth((prev) => prev - 1)}>❮</button>
+          <button onClick={() => setCurrentMonth((prev) => prev + 1)}>❯</button>
+      </div>
     </div>
     <div className={styles.mGrid}>
       {/* Previous month's last days (Jan 25-31) */}
